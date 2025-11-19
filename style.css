@@ -1,0 +1,80 @@
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+/* Timeline Wrapper */
+.timeline-wrapper {
+    margin-top: 60px;
+    width: 100%;
+    position: relative;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+/* Horizontal straight Line */
+.straight-line {
+    height: 4px;
+    background: linear-gradient(to left, #00c896, #0aa0c8);
+    position: absolute;
+    top: 80px;           
+    left: 60px;          
+    right: 60px;
+}
+
+/* Timeline journey Layout */
+.journey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+}
+
+/* Dot Styling */
+.dot {
+    width: 18px;
+    height: 18px;
+    background: #0a98d4;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -90px;
+}
+
+/* first dot for manuplate the first dot */
+.first-dot {
+    background: #10dba2;
+}
+
+/* Card */
+.box {
+    width: 180px;
+    height: 120px;
+    background: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: -55px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.box h3 {
+    margin: 0;
+    color: #1f95cb;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #888888;
+    font-weight: bold;
+}
+
